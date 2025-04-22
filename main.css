@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+.container h2,
+section h3,
+form button {
+        font-family: "Bungee", sans-serif;
+        font-weight: normal;
+        font-style: normal;
+}
+
+body,
+input,
+textarea {
+        font-family: "Nunito Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: normal;
+        font-style: normal;
+        font-variation-settings:
+        "wdth" 100,
+        "YTLC" 500;
+}
+
+header {
+    padding: 16px;
+    background-color: rgb(112, 8, 197);
+    color: #dfdbdb;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #dfdbdb;
+    text-decoration: none;
+}
+
+.brand-list img {
+    height: 24px;
+    margin-top: 8px;
+}
+
+.brand-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.brand-list li a {
+    text-decoration: none;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+.brand-list li a {
+    text-decoration: none;
+}
+
+.store-front {
+    margin-right: 32px;
+}
+
+section {
+    color: rgb(112, 8, 197);
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input, 
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: rgb(112, 8, 197);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(141, 39, 224);
+}
+
+input:focus, textarea:focus {
+    outline-color: rgb(112, 8, 197);
+}
+
+footer {
+    background-color: rgb(112, 8, 197);
+    color: #dfdbdb;
+    padding: 16px 0;
+}
